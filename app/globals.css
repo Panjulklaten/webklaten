@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color tokens — "laporan audit" palette: paper + ink + performance-green,
+     dijauhkan sengaja dari cream/serif/terracotta template AI pada umumnya. */
+  --color-paper: #f5f6f1;
+  --color-paper-raised: #ffffff;
+  --color-ink: #10201c;
+  --color-ink-soft: #55655f;
+  --color-line: #dbe0d5;
+  --color-signal: #1b7a5c;
+  --color-signal-soft: #e4f0ea;
+  --color-cta: #d9531e;
+  --color-cta-soft: #fbe6da;
+
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, "SFMono-Regular", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: var(--color-signal);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cta);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Garis skala kecil di sisi kartu registri portofolio — meniru penggaris pada kertas laporan */
+.ruled-edge {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--color-line) 0px,
+    var(--color-line) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+}
+
+.text-balance {
+  text-wrap: balance;
+}
