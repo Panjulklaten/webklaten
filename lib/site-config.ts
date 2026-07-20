@@ -61,8 +61,8 @@ export const portfolioSites: PortfolioSite[] = [
     note: "Dilengkapi dashboard admin untuk kelola pemesanan.",
   },
   {
-    name: "insulasiatapklaten.biz.id",
-    url: "https://insulasiatapklaten.biz.id",
+    name: "insulasiatap.biz.id",
+    url: "https://insulasiatap.biz.id",
     category: "Jasa & UMKM",
     note: "Website profil usaha untuk jasa insulasi atap, dioptimasi untuk pencarian lokal.",
   },
