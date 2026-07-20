@@ -6,8 +6,8 @@ export const site = {
   tagline: "Jasa Pembuatan Website",
   domain: "jasaweb.biz.id",
   url: "https://jasaweb.biz.id",
-  contactPerson: "Rio",
-  whatsappRaw: "08131556592",
+  contactPerson: "Dian",
+  whatsappRaw: "081270826212",
   priceFrom: 200000,
   description:
     "Jasa pembuatan website profesional mulai Rp200.000. Tanpa biaya bulanan, tanpa biaya hosting tersembunyi. Website nyata dengan performa terbukti — bukan template blogspot atau website gratisan.",
