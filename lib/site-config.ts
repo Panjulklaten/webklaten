@@ -49,8 +49,8 @@ export const portfolioSites: PortfolioSite[] = [
     note: "Struktur bilingual /id /en, skor PageSpeed & aksesibilitas tinggi.",
   },
   {
-    name: "travelbengkulu.com",
-    url: "https://travelbengkulu.com",
+    name: "bengkulutravel.com",
+    url: "https://bengkulutravel.com",
     category: "Travel & Transportasi",
     note: "Sistem booking dengan notifikasi WhatsApp otomatis.",
   },
