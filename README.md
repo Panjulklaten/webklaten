@@ -18,6 +18,22 @@ placeholder tanpa perlu ubah kode.
 | `public/images/proof/client-footer-credit.png` | Screenshot bagian kredit di footer salah satu website klien |
 | `public/images/proof/admin-dashboard-rpm.png` | Screenshot dashboard admin (rpmtravel.co.id) |
 
+## Screenshot jenis website
+
+6 slot gambar contoh untuk section "Jenis Website", ditempel di
+`public/images/jenis-website/`. Format PNG, rasio 4:3, disarankan
+~1200×900px, di bawah ±500KB per file.
+
+| File | Sumber screenshot |
+|---|---|
+| `public/images/jenis-website/portofolio-perusahaan.png` | asuransibatam.com |
+| `public/images/jenis-website/produk-penjualan-1.png` | insulasiatap.biz.id |
+| `public/images/jenis-website/produk-penjualan-2.png` | kreditmotorklaten.biz.id |
+| `public/images/jenis-website/marketing.png` | asuransijogja.biz.id |
+| `public/images/jenis-website/jasa-travel-1.png` | bengkulutravel.com |
+| `public/images/jenis-website/jasa-travel-2.png` | rpmtravel.co.id |
+
+
 ## Data bisnis
 
 Nomor WhatsApp, daftar portofolio, dan teks slot bukti semua terpusat di

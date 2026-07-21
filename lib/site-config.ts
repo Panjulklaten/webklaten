@@ -68,6 +68,89 @@ export const portfolioSites: PortfolioSite[] = [
   },
 ];
 
+export type WebsiteTypeExample = {
+  siteName: string;
+  siteUrl: string;
+  file: string;
+};
+
+export type WebsiteType = {
+  slug: string;
+  title: string;
+  description: string;
+  examples: WebsiteTypeExample[];
+};
+
+/**
+ * Jenis-jenis website yang bisa dibuat, masing-masing dengan contoh
+ * screenshot dari website klien nyata. File belum ada — tempel di path
+ * yang tertera, gambar otomatis tampil menggantikan placeholder.
+ */
+export const websiteTypes: WebsiteType[] = [
+  {
+    slug: "portofolio-perusahaan",
+    title: "Website Portofolio Perusahaan",
+    description:
+      "Cocok untuk perusahaan, konsultan, atau penyedia jasa profesional yang ingin tampil kredibel di mata calon klien. Memuat profil usaha, daftar layanan, rekam jejak, dan kontak — disusun supaya pengunjung sudah percaya sebelum sempat menghubungi Anda.",
+    examples: [
+      {
+        siteName: "asuransibatam.com",
+        siteUrl: "https://asuransibatam.com",
+        file: "/images/jenis-website/portofolio-perusahaan.png",
+      },
+    ],
+  },
+  {
+    slug: "produk-penjualan",
+    title: "Website Produk Penjualan",
+    description:
+      "Dirancang untuk bisnis yang menjual produk atau paket jasa secara langsung — lengkap dengan katalog, daftar harga, dan alur pemesanan yang jelas. Bisa disambungkan ke checkout otomatis, payment gateway QRIS, atau tombol pemesanan langsung ke WhatsApp, menyesuaikan model bisnis Anda.",
+    examples: [
+      {
+        siteName: "insulasiatap.biz.id",
+        siteUrl: "https://insulasiatap.biz.id",
+        file: "/images/jenis-website/produk-penjualan-1.png",
+      },
+      {
+        siteName: "kreditmotorklaten.biz.id",
+        siteUrl: "https://kreditmotorklaten.biz.id",
+        file: "/images/jenis-website/produk-penjualan-2.png",
+      },
+    ],
+  },
+  {
+    slug: "marketing",
+    title: "Website Marketing",
+    description:
+      "Difokuskan untuk menjaring calon pelanggan lewat pencarian Google — dilengkapi artikel, halaman layanan yang dioptimasi SEO, dan struktur yang membantu website naik peringkat. Pilihan tepat kalau tujuan utama Anda adalah mendatangkan leads baru, bukan sekadar tampil sebagai company profile.",
+    examples: [
+      {
+        siteName: "asuransijogja.biz.id",
+        siteUrl: "https://asuransijogja.biz.id",
+        file: "/images/jenis-website/marketing.png",
+      },
+    ],
+  },
+  {
+    slug: "jasa-travel",
+    title: "Website Jasa & Travel",
+    description:
+      "Dibuat khusus untuk bisnis jasa perjalanan dan transportasi — dilengkapi sistem booking, pengecekan jadwal, hingga notifikasi otomatis ke WhatsApp setiap ada pemesanan baru. Bisa dikembangkan lebih jauh sampai ke dashboard admin untuk kelola seluruh pesanan dari satu tempat.",
+    examples: [
+      {
+        siteName: "bengkulutravel.com",
+        siteUrl: "https://bengkulutravel.com",
+        file: "/images/jenis-website/jasa-travel-1.png",
+      },
+      {
+        siteName: "rpmtravel.co.id",
+        siteUrl: "https://rpmtravel.co.id",
+        file: "/images/jenis-website/jasa-travel-2.png",
+      },
+    ],
+  },
+];
+
 export type ProofShot = {
   slug: string;
   file: string;
