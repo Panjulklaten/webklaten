@@ -26,8 +26,8 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Jasa Pembuatan Website Murah Mulai 200K | jasaweb.biz.id",
-    template: "%s | jasaweb.biz.id",
+    default: "Jasa Pembuatan Website Murah Mulai 200K | webklaten.biz.id",
+    template: "%s | webklaten.biz.id",
   },
   description: site.description,
   keywords: [

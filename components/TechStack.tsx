@@ -4,7 +4,7 @@ const stacks = [
     tag: "Rekomendasi untuk kebutuhan kompleks",
     highlight: true,
     points: [
-      "Tanpa biaya hosting bulanan — sesuai model harga jasaweb.biz.id",
+      "Tanpa biaya hosting bulanan — sesuai model harga webklaten.biz.id",
       "Performa lebih cepat, langsung terlihat di skor PageSpeed",
       "Tidak bergantung plugin pihak ketiga yang rawan celah keamanan",
       "Fleksibel untuk fitur khusus: booking otomatis, payment gateway, dashboard admin, hingga sistem custom lain",

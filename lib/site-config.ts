@@ -1,11 +1,11 @@
-// Data inti bisnis jasaweb.biz.id — ubah di sini, otomatis tersinkron di seluruh halaman.
+// Data inti bisnis webklaten.biz.id — ubah di sini, otomatis tersinkron di seluruh halaman.
 
 export const site = {
-  name: "jasaweb.biz.id",
+  name: "webklaten.biz.id",
   brand: "JasaWeb",
   tagline: "Jasa Pembuatan Website",
-  domain: "jasaweb.biz.id",
-  url: "https://jasaweb.biz.id",
+  domain: "webklaten.biz.id",
+  url: "https://webklaten.biz.id",
   contactPerson: "Dian",
   whatsappRaw: "081270826212",
   priceFrom: 200000,
@@ -21,7 +21,7 @@ export function waLink(message: string) {
 }
 
 export const defaultWaMessage =
-  "Halo Rio, saya tertarik dengan jasa pembuatan website di jasaweb.biz.id. Boleh minta info lebih lanjut?";
+  "Halo Rio, saya tertarik dengan jasa pembuatan website di webklaten.biz.id. Boleh minta info lebih lanjut?";
 
 export type PortfolioSite = {
   name: string;
@@ -32,7 +32,7 @@ export type PortfolioSite = {
 
 /**
  * Website klien nyata — bisa langsung dicek pengunjung.
- * Setiap situs punya link kredit di footer yang mengarah balik ke jasaweb.biz.id
+ * Setiap situs punya link kredit di footer yang mengarah balik ke webklaten.biz.id
  * sebagai bukti keaslian portofolio.
  */
 export const portfolioSites: PortfolioSite[] = [
